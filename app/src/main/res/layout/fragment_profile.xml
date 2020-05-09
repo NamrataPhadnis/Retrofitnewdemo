@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:layout_marginTop="1dp"
+    tools:context=".a.fragment.ProfileFragment">
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="74dp"
+        android:layout_height="27dp"
+        android:layout_gravity="right"
+        android:layout_margin="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/email"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
